@@ -28,7 +28,7 @@ function rge {
 ### To use:
 
 ```bash
-echo '127.0.0.1' | rge "${REGEX_LIB}(?&IP_LOOPBACK)"
+echo '127.0.0.1' | rge "(?&IP_LOOPBACK)"
 ```
 
 ### Supported tools
